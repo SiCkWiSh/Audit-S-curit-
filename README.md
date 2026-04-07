@@ -57,9 +57,9 @@ The audit followed a 5-phase methodology:
 
 | User Account | RID | NTLM Hash | Status |
 | :--- | :--- | :--- | :--- |
-| **adminj23** | 1003 | `09d2db5bc9d04485ebdcdc9a5832210e` | 🛡️ High Complexity |
-| **enseignant** | 1004 | `95a0fd602cb9a34ca7be6cbd9c84c987` | 🛡️ Medium Complexity |
-| **test** | 1006 | `0cb6948805f797bf2a82807973b89537` | ✅ **Cracked (test)** |
+| **admin23** | 1003 | `09d2db5bc9*********************2210e` | 🛡️ High Complexity |
+| **enseignant** | 1004 | `95a0fd602*****************c987` | 🛡️ Medium Complexity |
+| **test** | 1006 | `0cb6948805f**************9537` | ✅ **Cracked (test)** |
 
 
 
@@ -77,7 +77,6 @@ To prevent the attacks demonstrated in this audit, the following measures are ma
 
 ## 📂 Repository Structure
 - `/scripts`: Custom scripts for defensive bypass.
-- `/report`: Full LaTeX Audit Report (PDF).
 - `/diagrams`: High-resolution attack schema.
 
 ---
